@@ -24,10 +24,11 @@ right: 16px;
 
 }
 
+
  	
-.download {
+#download {
 position: absolute;
-bottom: -60px;
+bottom: 20px;
 right: 16px;
 }
 
