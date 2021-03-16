@@ -1,5 +1,14 @@
+@font-face {
+    font-family: 'septimaregular';
+    src: url('septima-webfont.woff2') format('woff2'),
+         url('septima-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 h1 {
-font-family: TimesNewRoman,Times New Roman,Times,Baskerville,Georgia,serif; font-style: normal; font-variant: normal;
+font-family: 'septimaregular',serif; font-style: normal; font-variant: normal;
 
 font-size: 40px;
 margin: auto;
@@ -7,29 +16,51 @@ width: 97%;
 padding: 10px;
 }
 
+
 h2 {
-font-family: TimesNewRoman,Times New Roman,Times,Baskerville,Georgia,serif; font-style: normal; font-variant: normal;
+font-family: 'septimaregular',serif; font-style: normal; font-variant: normal;
 font-size: 40px;
 position: absolute;
 top: -10px;
-right: 16px;
+right: 28px;
 }
 
-.arrow { 
-font-family: TimesNewRoman,Times New Roman,Times,Baskerville,Georgia,serif; font-style: normal; font-variant: normal;
-font-size: 60px;
+.cta { 
+font-family: 'septimaregular',serif; font-style: normal; font-variant: normal;
+font-size: 30px;
 position: absolute;
-bottom: -60px;
-right: 16px;
+bottom: -10px;
+right: 28px;
+}
 
+/* mouse over link */
+a:hover{
+  -moz-text-shadow: 0 0 20px #88898C;
+-webkit-text-shadow: 0 0 20px #88898C;
+text-shadow: 0px 0px 20px #88898C;
+}
+
+a:visited {
+  color: black;
+}
+
+a:active {
+  color: blue;
 }
 
 
- 	
-#download {
-position: absolute;
-bottom: 20px;
-right: 16px;
+
+video {
+  max-width: 100%;
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -moz-box-shadow: 0 0 50px #ff0000;
+-webkit-box-shadow: 0 0 50px #ff0000;
+box-shadow: 0px 0px 50px #ff0000;
+
 }
+
 
 
